@@ -26,9 +26,10 @@ int main()
 
             lcd.printf("%5i",x);    //conuter display
 
-            wait(1);
+            wait(0.5);
 
             x--;
+            if(x<=0)break;
 
       }
 
