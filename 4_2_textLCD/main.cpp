@@ -12,9 +12,9 @@ int main()
 
 {
 
-      int x=0;
+      int x=30;
 
-      lcd.printf("Hello World!\n");
+      lcd.printf("107061108\n");
 
       while(true)
 
@@ -28,7 +28,7 @@ int main()
 
             wait(1);
 
-            x++;
+            x--;
 
       }
 
